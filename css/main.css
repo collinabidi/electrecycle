@@ -2766,7 +2766,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .clients-testimonials {
     margin-top: 4.2rem;
-    padding-top: 7.2rem;
+    padding-top: 6.0rem;
     text-align: center;
     position: relative;
 }
@@ -2788,6 +2788,14 @@ html.no-csstransitions .home-content__main {
 
 .clients-testimonials .testimonials {
     margin: 0 10%;
+}
+
+.clients-testimonials .diagram {
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .clients-testimonials .testimonials p {
@@ -3085,6 +3093,10 @@ html.no-csstransitions .home-content__main {
 .contact-primary, .contact-secondary {
     float: left;
     padding: 0 5rem;
+}
+
+.contact-primary, .selling {
+    align-content: center;
 }
 
 .contact-primary {
